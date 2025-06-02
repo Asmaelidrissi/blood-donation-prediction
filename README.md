@@ -1,33 +1,19 @@
-Blood Donation Prediction
-Ce projet vise à prédire la probabilité de futurs dons de sang à l'aide de modèles de Machine Learning. En exploitant des données démographiques, comportementales et géographiques, il identifie les profils les plus susceptibles de redonner leur sang.
+# 🩸 Blood Donation Prediction
 
-Objectifs
+Ce projet a pour objectif de prédire la probabilité de futurs dons de sang à l’aide d’algorithmes de Machine Learning. En exploitant des données démographiques, comportementales et géographiques issues d’un questionnaire, il permet d’identifier les profils les plus susceptibles de renouveler leur don.
 
-Nettoyer et structurer les données issues d’un questionnaire.
-Analyser les comportements et tendances liés aux dons de sang.
-Construire et comparer plusieurs modèles de classification.
-Visualiser les résultats via des dashboards interactifs.
+---
 
+##  Objectifs
 
-Modèles ML testés
+- Nettoyer et structurer les données collectées via un questionnaire  
+- Analyser les comportements et tendances liés au don de sang  
+- Construire et comparer plusieurs modèles de classification  
+- Visualiser les résultats à l’aide de dashboards interactifs
 
-Régression Logistique
-K-Nearest Neighbors (KNN)
-LightGBM
-XGBoost
-CatBoost (modèle le plus performant)
+---
 
-📌 Résultat : CatBoost atteint une précision (accuracy) de 91,25 %.
-
-Technologies utilisées
-
-Python : Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, CatBoost
-Jupyter Notebook : Analyse et modélisation
-Power BI : Visualisations interactives
-Git & GitHub : Gestion de version
-
-
-Structure du projet
+## Structure du projet
 blood-donation-prediction/
 ├── Notebook Final – Prédiction des Dons de Sang.ipynb
 ├── requirements.txt
@@ -37,21 +23,30 @@ blood-donation-prediction/
 │   ├── 03_satisfaction_donneur.png
 │   └── 04_region_map.png
 
+##  Modèles de Machine Learning testés
 
-Lancer le projet
-🔧 Installation des dépendances
+- **Logistic Regression**  
+- **K-Nearest Neighbors (KNN)**  
+- **LightGBM**  
+- **XGBoost**  
+- **CatBoost** (modèle le plus performant)
+
+📌 **Résultat :** Le modèle **CatBoost** atteint une précision (**accuracy**) de **91.25 %**.
+
+---
+
+## 🛠 Technologies utilisées
+
+- **Python** : Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, CatBoost  
+- **Jupyter Notebook**  
+- **Power BI** : pour la visualisation des résultats  
+- **Git & GitHub** : pour le versioning et la collaboration
+
+---
+
+##  Lancer le projet
+
+### 1. Installer les dépendances
+
+```bash
 pip install -r requirements.txt
-
- Ouvrir le notebook
-jupyter notebook "Notebook Final – Prédiction des Dons de Sang.ipynb"
-
- Aperçu des dashboards (Power BI)
-
-Profil démographique des donneurs : Analyse des caractéristiques démographiques.
-Attitudes et motivations : Étude des motivations des donneurs.
-Satisfaction des donneurs : Évaluation de l’expérience des donneurs.
-Cartographie régionale : Répartition géographique des dons.
-
-
-Licence
-Projet académique réalisé dans le cadre d’un PFA (Projet de Fin d’Année).Usage strictement pédagogique.
