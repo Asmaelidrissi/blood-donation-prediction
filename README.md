@@ -11,17 +11,6 @@ Ce projet a pour objectif de prédire la probabilité de futurs dons de sang à 
 - Construire et comparer plusieurs modèles de classification  
 - Visualiser les résultats à l’aide de dashboards interactifs
 
----
-## Structure du projet
-blood-donation-prediction/
-├── Notebook Final – Prédiction des Dons de Sang.ipynb
-├── requirements.txt
-├── dashboard/
-│   ├── 01_profil_demographique.png
-│   ├── 02_culture_don.png
-│   ├── 03_satisfaction_donneur.png
-│   └── 04_region_map.png
----
 
 ##  Modèles de Machine Learning testés
 
@@ -44,9 +33,10 @@ blood-donation-prediction/
 
 ---
 
-##  Lancer le projet
+## Lancer le projet
 
 ### 1. Installer les dépendances
 
 ```bash
 pip install -r requirements.txt
+##  Lancer le projet
