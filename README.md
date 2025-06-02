@@ -12,7 +12,6 @@ Ce projet a pour objectif de prédire la probabilité de futurs dons de sang à 
 - Visualiser les résultats à l’aide de dashboards interactifs
 
 ---
-
 ## Structure du projet
 blood-donation-prediction/
 ├── Notebook Final – Prédiction des Dons de Sang.ipynb
@@ -22,6 +21,7 @@ blood-donation-prediction/
 │   ├── 02_culture_don.png
 │   ├── 03_satisfaction_donneur.png
 │   └── 04_region_map.png
+---
 
 ##  Modèles de Machine Learning testés
 
